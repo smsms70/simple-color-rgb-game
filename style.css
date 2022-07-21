@@ -1,0 +1,46 @@
+body{
+	background: #151914;
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	color: whitesmoke;
+}
+#main{
+	height: 300px;
+	width: 600px;
+	display: grid;
+	margin: 100px;
+	grid-template-columns: repeat(3, 1fr);
+}
+#main div{
+	height: 130px;
+	width: 130px;
+	border-radius: 50%;
+	background: #000;
+	cursor: pointer;
+}
+.message{
+	position: absolute;
+	height: 90px;
+	width: 220px;
+	align-self: center;
+	background: #ededed;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 30px;
+	cursor: pointer;
+	color: black;
+}
+#color{
+	position: absolute;
+}
+#score{
+	height: 30px;
+	width: 50px;
+	position: absolute;
+	border: 1px solid darkred;
+	margin-left: 57%;
+	justify-self: center;
+	text-align: center;
+	font-size: 20px;
+}
